@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">
+function question() {
+
+    var answer = prompt("What is the capital of India?");
+
+    if (answer != null && answer.toLowerCase() === "new delhi") {
+        document.write("Correct answer!");
+    } 
+    else {
+        document.write("Wrong answer!!");
+    }
+}
+</script>
+</head>
+
+<body>
+<title><b>Intercative Quiz</b></title>
+<p><b>Intercative Quiz</b></p>
+<p>Click the following button to see the question:</p>
+
+<form>
+<input type="button" value="Click Me" onclick="question();" />
+</form>
+
+</body>
+</html>
